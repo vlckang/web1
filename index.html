@@ -3,19 +3,28 @@
 <head>
 <title>WEB1 - Welcome</title>
 <meta charset="utf-8">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112184771-1"></script>
-<script>
+<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</script>
+<script src="colors.js"></script>
+<link rel="stylesheet" href="style.css">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112184771-1"></script> -->
+<!-- <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'UA-112184771-1');
-</script>
-
+</script> -->
 </head>
 <body>
-  <h1><a href="index.html">WEB</a></h1>
+  <h1><a href="index.html"><font color="blue">WEB</font></a></h1>
+  <input id="night_day" type="button" value="night" onclick="
+    nightDayHandler(this);
+  ">
+  <div id="grid">
 <ol>
   <li><a href="1.html">HTML</a></li>
   <li><a href="2.html">CSS</a></li>
@@ -23,13 +32,19 @@
   <li>Python</li>
   <li>SQL</li>
 </ol>
+  <div id="article">
 <h2>WEB is a Spreaded communication system, not centered</h2>
 Tim Berners-Lee, Web browser(client computer), Web server(server computer), Free static web hosting and,
  <p> <img src="coding2.png" width="30%"> and <img src="coding3.png" width="30%"> </p>
 <p><a href="https://en.wikipedia.org/wiki/World_Wide_Web target="_blank" title="a Tag specification">The World Wide Web ; link</a>
   </p>
   <p>
+    <iframe width="290" height="180" src="https://www.youtube.com/embed/qYYJqWsBb1U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </p>
+  <p>
 The World Wide Web (abbreviated WWW or the Web) is an information space where documents and other web resources are identified by Uniform Resource Locators (URLs), interlinked by hypertext links, and can be accessed via the Internet.[1] English scientist Tim Berners-Lee invented the World Wide Web in 1989. He wrote the first web browser computer program in 1990 while employed at CERN in Switzerland.[2][3] The Web browser was released outside CERN in 1991, first to other research institutions starting in January 1991 and to the general public on the Internet in August 1991.
   </p>
+  </div>
+</div>
 </body>
 </html>
