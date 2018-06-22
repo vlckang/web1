@@ -3,19 +3,18 @@
 <head>
 <title>WEB1 - html</title>
 <meta charset="utf-8">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112184771-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-112184771-1');
+<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 </script>
-
+<script src="colors.js"></script>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1><a href="index.html">WEB</a></h1>
+  <input id="night_day" type="button" value="night" onclick="
+    nightDayHandler(this);
+  ">
+  <div id="grid">
 <ol>
   <li><a href="1.html">HTML</a></li>
   <li><a href="2.html">CSS</a></li>
@@ -23,18 +22,18 @@
   <li>Python</li>
   <li>SQL</li>
 </ol>
-<h2>HTML한글과 English</h2>
+<div id="article">
+<h2>HTML한글</h2>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/jSJM9iOiQ1g" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+</p>
 <p><a href="http://aboooks.tistory.com/ target="_blank" title="a Tag specification">HTML a Tag specification</a> is a ~~~~
 </p>
  <p> <img src="coding.jpg" width="100%">
-</p><p style="margin-top:45px;">From the moment of victory, <strong><u>the Trump administration</u></strong> became a looking-glass presidency: Every inverse assumption about how to assemble and run a White House was enacted and compounded, many times over. The decisions that Trump and his top advisers made in those first few months — from the slapdash transition to the disarray in the West Wing — set the stage for the chaos and dysfunction that have persisted throughout his first year in office. This was a real-life version of Mel Brooks’s The Producers, where the mistaken outcome trusted by everyone in Trump’s inner circle — that they would lose the election — wound up exposing them for who they really were.
 </p>
-  <p>
-
-
-  <div id="disqus_thread"></div>
+<p> From the moment of victory, <strong><u>the Trump administration</u></strong> became a looking-glass presidency: Every inverse assumption about how to assemble and run a White House was enacted and compounded, many times over. The decisions that Trump and his top advisers made in those first few months — from the slapdash transition to the disarray in the West Wing — set the stage for the chaos and dysfunction that have persisted throughout his first year in office. This was a real-life version of Mel Brooks’s The Producers, where the mistaken outcome trusted by everyone in Trump’s inner circle — that they would lose the election — wound up exposing them for who they really were.
+</p>
+<p>
 <script>
-
 /**
 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
@@ -52,21 +51,8 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  </p>
-  <p>
-  <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5a52f7094b401e45400be6da/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
-  </p>
+</p>
+</div>
+</div>
 </body>
 </html>
