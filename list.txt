@@ -1,0 +1,6 @@
+<li><a href="http://localhost/practice3/index.php"></a></li>
+<li><a href="http://localhost/practice3/index.php?id=1">이숙경</a></li>
+<li><a href="http://localhost/practice3/index.php?id=2">박재숙</a></li>
+<li><a href="http://localhost/practice3/index.php?id=3">백태호</a></li>
+<li><a href="http://localhost/practice3/index.php?id=4">김경훈</a></li>
+<li><a href="http://localhost/practice3/index.php?id=5">김경진</a></li>
